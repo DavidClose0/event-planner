@@ -1,0 +1,65 @@
+h2 {
+	display: inline;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+table, th, td {
+	text-align: left;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table {
+	margin: auto;
+	width: 75%;
+}
+table.clickable-table tr {
+	transition-duration: 0.4s;
+}
+table.clickable-table tr:not(:first-child):hover {
+	background-color: #ADD8E6;
+}
+.big-button-container {
+	text-align: center;
+	padding: 20vh 0 0 0;
+}
+.big-button {
+	width: 25vw;
+	height: 25vw;
+	font-size: 5vw;
+	border-radius: 10px;
+	margin: auto;
+	margin: 10px;
+	transition-duration: 0.4s;
+}
+.big-button:hover {
+	background-color: #ADD8E6;
+	cursor: pointer;
+}
+.medium-button {
+	width: 25vw;
+	height: 5vw;
+	font-size: 2vw;
+	border-radius: 10px;
+	margin: auto;
+	margin: 10px;
+	transition-duration: 0.4s;
+}
+.medium-button:hover {
+	background-color: #ADD8E6;
+	cursor: pointer;
+}
+.back-button {
+	width: fit-content;
+	height: fit-content;
+	font-size: 2vw;
+	border-radius: 10px;
+	transition-duration: 0.4s;
+}
+.back-button:hover {
+	background-color: #ADD8E6;
+	cursor: pointer;
+}
+form {
+	padding-left: 30vw;
+}
